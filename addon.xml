@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.actout" name="Act Out podcast" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Act Out podcast</summary>
+    <description lang="en">The news corporate media won't touch, stories from the front lines of our movements to fight and build and just a dash of spoken word, visual art and snark. Blend and enjoy.</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@protonmail.com</email>
+    <source>https://github.com/leopheard/actout.git</source>
+    <website>https://artkillingapathy.com/</website>
+    <audio_guide></audio_guide>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/screen1.jpg</screenshot>
+			<screenshot>resources/media/screen2.jpg</screenshot>
+			<screenshot>resources/media/screen3.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
