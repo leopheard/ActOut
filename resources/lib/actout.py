@@ -12,7 +12,7 @@ def get_soup(url):
     print "type: ", type(soup)
     return soup
 
-get_soup("https://actout.libsyn.com/page/1/size/1600")
+get_soup("https://actout.libsyn.com/rss")
 
 
 def get_playable_podcast(soup):
