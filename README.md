@@ -5,7 +5,7 @@ Act Out podcast<br>
 
 Act Out! is a weekly show that airs online and on Free Speech TV (DirecTV, Dish Network, ROKU, Amazon Fire.<br>
 
-To install this addon, either use the Kodi Github installer addon or save the .zip file downloaded from the 'clone or download' button to somewhere the Kodi can access. Then on the Kodi, go to addons > install from zip file.<br>
+^^^ To install this addon, either use the <a href="https://www.tvaddons.co/github-browser-kodi/">Kodi Github installer</a> addon or save the .zip file downloaded from the 'clone or download' button to somewhere the Kodi can access (e.g. network drive or USB stick). Then on the Kodi, go to addons > install from zip file.<br>
 
 #PRPN<br>
 #PopularResistance<br>
