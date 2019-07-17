@@ -3,7 +3,7 @@ from resources.lib import actout
 
 plugin = Plugin()
 
-URL = "https://actout.libsyn.com/page/1/size/1600"
+URL = "https://actout.libsyn.com/rss"
 
 @plugin.route('/')
 def main_menu():

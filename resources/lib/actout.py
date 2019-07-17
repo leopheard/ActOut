@@ -31,11 +31,11 @@ def get_playable_podcast(soup):
             title = content.find('title')
             title = title.get_text()
 
-            desc = content.find('description')
-            desc = desc.get_text()
+#            desc = content.find('description')
+#            desc = desc.get_text()
 
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
 
         except AttributeError:
             continue
@@ -43,8 +43,8 @@ def get_playable_podcast(soup):
         item = {
                 'url': link,
                 'title': title,
-                'desc': desc,
-                'thumbnail': thumbnail
+#                'desc': desc,
+                'thumbnail': "https://popularresistance-uploads.s3.amazonaws.com/uploads/2018/12/act-out.jpg"
         }
         
         subjects.append(item) 
@@ -63,7 +63,7 @@ def compile_playable_podcast(playable_podcast):
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-            'info': podcast['desc'],
+#            'info': podcast['desc'],
             'is_playable': True,
     })
 
