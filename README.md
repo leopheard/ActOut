@@ -14,3 +14,4 @@ Act Out! is a weekly show that airs online and on Free Speech TV (DirecTV, Dish 
 <a href="https://freespeech.org/shows/act-out/">Free Speech TV</a><br>
 <a href="https://popularresistance.org/prpn/">Popular Resistance Podcast Network</a><br>
 <a href="https://www.artkillingapathy.com/"><img src="https://www.artkillingapathy.com/wp-content/uploads/2017/09/ACT-OUT-logo-for-internet.jpg">
+<br><a href="http://www.kodi.tv"><img src="https://kodi.tv/sites/default/files/page/field_image/about--devices.jpg">
